@@ -1,12 +1,9 @@
 utils/ConstanceClass.class
 utils/ConfigReader.class
-<<<<<<< HEAD
 utils/CommonMethods.class
 pages/logInPage.class
-=======
-pages/logInPage.class
-utils/CommonMethods.class
->>>>>>> d2f631fe63cf8ee18744d307f86007787a6d207f
+pages/DashboadPage.class
 test/LoginTests.class
 utils/BaseClass.class
 utils/ExcelFileReader.class
+test/DashboardTests.class

@@ -1,5 +1,7 @@
-utils/BaseClass.class
 utils/ConstanceClass.class
 utils/ConfigReader.class
-utils/ExcelFileReader.class
 utils/CommonMethods.class
+pages/logInPage.class
+test/LoginTests.class
+utils/BaseClass.class
+utils/ExcelFileReader.class

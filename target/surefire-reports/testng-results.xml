@@ -1,148 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-12-07T22:02:39Z" name="OrangeHRM Application teamwork" finished-at="2018-12-07T22:02:45Z" duration-ms="6839">
+  <suite started-at="2018-12-07T22:10:47Z" name="OrangeHRM Application teamwork" finished-at="2018-12-07T22:10:57Z" duration-ms="9791">
     <groups>
     </groups>
-    <test started-at="2018-12-07T22:02:39Z" name="Login Page Test" finished-at="2018-12-07T22:02:45Z" duration-ms="6716">
+    <test started-at="2018-12-07T22:10:47Z" name="Login Page Test" finished-at="2018-12-07T22:10:53Z" duration-ms="5863">
       <class name="test.LoginTests">
-        <test-method is-config="true" signature="start()[pri:0, instance:test.LoginTests@5136d012]" started-at="2018-12-07T22:02:39Z" name="start" finished-at="2018-12-07T22:02:42Z" duration-ms="2992" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:test.LoginTests@3098cf3b]" started-at="2018-12-07T22:10:47Z" name="start" finished-at="2018-12-07T22:10:49Z" duration-ms="2298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="verifyLogIn()[pri:0, instance:test.LoginTests@5136d012]" started-at="2018-12-07T22:02:42Z" name="verifyLogIn" finished-at="2018-12-07T22:02:43Z" duration-ms="1376" status="PASS">
+        <test-method signature="verifyLogIn()[pri:0, instance:test.LoginTests@3098cf3b]" started-at="2018-12-07T22:10:49Z" name="verifyLogIn" finished-at="2018-12-07T22:10:51Z" duration-ms="1399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogIn -->
-        <test-method is-config="true" signature="finish()[pri:0, instance:test.LoginTests@5136d012]" started-at="2018-12-07T22:02:43Z" name="finish" finished-at="2018-12-07T22:02:43Z" duration-ms="96" status="PASS">
+        <test-method is-config="true" signature="finish()[pri:0, instance:test.LoginTests@3098cf3b]" started-at="2018-12-07T22:10:51Z" name="finish" finished-at="2018-12-07T22:10:51Z" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finish -->
-        <test-method is-config="true" signature="start()[pri:0, instance:test.LoginTests@5136d012]" started-at="2018-12-07T22:02:43Z" name="start" finished-at="2018-12-07T22:02:45Z" duration-ms="2099" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:test.LoginTests@3098cf3b]" started-at="2018-12-07T22:10:51Z" name="start" finished-at="2018-12-07T22:10:53Z" duration-ms="1931" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="verifyLogoPresent()[pri:0, instance:test.LoginTests@5136d012]" started-at="2018-12-07T22:02:45Z" name="verifyLogoPresent" finished-at="2018-12-07T22:02:45Z" duration-ms="42" status="PASS">
+        <test-method signature="verifyLogoPresent()[pri:0, instance:test.LoginTests@3098cf3b]" started-at="2018-12-07T22:10:53Z" name="verifyLogoPresent" finished-at="2018-12-07T22:10:53Z" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogoPresent -->
-        <test-method is-config="true" signature="finish()[pri:0, instance:test.LoginTests@5136d012]" started-at="2018-12-07T22:02:45Z" name="finish" finished-at="2018-12-07T22:02:45Z" duration-ms="92" status="PASS">
+        <test-method is-config="true" signature="finish()[pri:0, instance:test.LoginTests@3098cf3b]" started-at="2018-12-07T22:10:53Z" name="finish" finished-at="2018-12-07T22:10:53Z" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finish -->
       </class> <!-- test.LoginTests -->
     </test> <!-- Login Page Test -->
-    <test started-at="2018-12-07T22:02:45Z" name="Dashboard Page test" finished-at="2018-12-07T22:02:45Z" duration-ms="26">
+    <test started-at="2018-12-07T22:10:53Z" name="Dashboard Page test" finished-at="2018-12-07T22:10:57Z" duration-ms="3865">
       <class name="test.DashboardTests">
-        <test-method is-config="true" signature="initialTest()[pri:0, instance:test.DashboardTests@59af0466]" started-at="2018-12-07T22:02:45Z" name="initialTest" finished-at="2018-12-07T22:02:45Z" duration-ms="19" status="FAIL">
-          <exception class="java.lang.NoClassDefFoundError">
-            <message>
-              <![CDATA[org/openqa/selenium/remote/SessionNotFoundException]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/remote/SessionNotFoundException
-at utils.BaseClass.initialSetup(BaseClass.java:34)
-at test.DashboardTests.initialTest(DashboardTests.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.SessionNotFoundException
-at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
-at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:190)
-at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:499)
-... 34 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NoClassDefFoundError -->
+        <test-method is-config="true" signature="initialTest()[pri:0, instance:test.DashboardTests@343570b7]" started-at="2018-12-07T22:10:53Z" name="initialTest" finished-at="2018-12-07T22:10:55Z" duration-ms="1918" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialTest -->
-        <test-method is-config="true" signature="closingTest()[pri:0, instance:test.DashboardTests@59af0466]" started-at="2018-12-07T22:02:45Z" name="closingTest" finished-at="2018-12-07T22:02:45Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingTest -->
-        <test-method signature="VerifyLoggedUser()[pri:0, instance:test.DashboardTests@59af0466]" started-at="2018-12-07T22:02:45Z" name="VerifyLoggedUser" finished-at="2018-12-07T22:02:45Z" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NoClassDefFoundError">
-            <message>
-              <![CDATA[org/openqa/selenium/remote/SessionNotFoundException]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/remote/SessionNotFoundException
-at utils.BaseClass.initialSetup(BaseClass.java:34)
-at test.DashboardTests.initialTest(DashboardTests.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.SessionNotFoundException
-at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
-at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:190)
-at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:499)
-... 34 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NoClassDefFoundError -->
+        <test-method signature="VerifyLoggedUser()[pri:0, instance:test.DashboardTests@343570b7]" started-at="2018-12-07T22:10:55Z" name="VerifyLoggedUser" finished-at="2018-12-07T22:10:56Z" duration-ms="1819" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLoggedUser -->
+        <test-method is-config="true" signature="closingTest()[pri:0, instance:test.DashboardTests@343570b7]" started-at="2018-12-07T22:10:56Z" name="closingTest" finished-at="2018-12-07T22:10:57Z" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingTest -->
       </class> <!-- test.DashboardTests -->
     </test> <!-- Dashboard Page test -->
   </suite> <!-- OrangeHRM Application teamwork -->

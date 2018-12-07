@@ -3,7 +3,6 @@
 <suite name="OrangeHRM Application teamwork">
   <test name="Login Page Test">
     <classes>
-      <class name="com.orangehrm.tests.LoginPageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- OrangeHRM Application -->

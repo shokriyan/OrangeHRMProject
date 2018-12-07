@@ -1,8 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.952 s - in TestSuite
-=======
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.498 s - in TestSuite
->>>>>>> d2f631fe63cf8ee18744d307f86007787a6d207f
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 7.361 s <<< FAILURE! - in TestSuite
+initialTest(test.DashboardTests)  Time elapsed: 0.26 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/remote/SessionNotFoundException
+	at test.DashboardTests.initialTest(DashboardTests.java:20)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.SessionNotFoundException
+	at test.DashboardTests.initialTest(DashboardTests.java:20)
+

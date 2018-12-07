@@ -1,6 +1,9 @@
 package test;
 
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 import pages.DashboadPage;
 import pages.logInPage;
@@ -11,13 +14,13 @@ import utils.ConfigReader;
 public class DashboardTests {
 	
 	BaseClass base ; 
-	
+	@BeforeMethod
 	public void initialTest() {
 		base = new BaseClass(); 
-		BaseClass.initialSetup("ghost");
+		BaseClass.initialSetup("chrome");
 		
 	}
-	
+	@Test
 	public void VerifyLoggedUser() {
 		ConfigReader config = new ConfigReader(); 
 		
@@ -31,6 +34,11 @@ public class DashboardTests {
 		String actualUser = dash.getLoggedUser();
 		
 		Assert.assertEquals(actualUser, getUser);
+	}
+	
+	@AfterMethod
+	public void closingTest() {
+		base.teardown();
 	}
 
 }

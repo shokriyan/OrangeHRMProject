@@ -6,4 +6,9 @@
     <class name ="test.LoginTests"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Dashboard Page test">
+    <classes>
+    <class name ="test.DashboardTests"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- OrangeHRM Application -->

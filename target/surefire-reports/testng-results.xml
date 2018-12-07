@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -16,6 +17,25 @@
           </reporter-output>
         </test-method> <!-- verifyLogIn -->
         <test-method is-config="true" signature="finish()[pri:0, instance:test.LoginTests@175b9425]" started-at="2018-12-07T19:32:33Z" name="finish" finished-at="2018-12-07T19:32:33Z" duration-ms="84" status="PASS">
+=======
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeHRM Application teamwork" duration-ms="6930" started-at="2018-12-07T19:32:56Z" finished-at="2018-12-07T19:33:03Z">
+    <groups>
+    </groups>
+    <test name="Login Page Test" duration-ms="6930" started-at="2018-12-07T19:32:56Z" finished-at="2018-12-07T19:33:03Z">
+      <class name="test.LoginTests">
+        <test-method status="PASS" signature="start()[pri:0, instance:test.LoginTests@3b084709]" name="start" is-config="true" duration-ms="4860" started-at="2018-12-07T19:32:56Z" finished-at="2018-12-07T19:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="verifyLogIn()[pri:0, instance:test.LoginTests@3b084709]" name="verifyLogIn" duration-ms="1891" started-at="2018-12-07T19:33:01Z" finished-at="2018-12-07T19:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogIn -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:test.LoginTests@3b084709]" name="finish" is-config="true" duration-ms="152" started-at="2018-12-07T19:33:03Z" finished-at="2018-12-07T19:33:03Z">
+>>>>>>> d2f631fe63cf8ee18744d307f86007787a6d207f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finish -->

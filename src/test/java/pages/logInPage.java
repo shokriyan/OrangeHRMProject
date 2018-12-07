@@ -16,10 +16,17 @@ public class logInPage extends BaseClass{
 
 	@FindBy(id = "btnLogin")
 	public WebElement logInButton;
+	
+	@FindBy (xpath = "//img[contains(@src, 'logo')]")
+	public WebElement logo;
 
 	public logInPage() {
 		PageFactory.initElements(driver, this);
 		
+	}
+	
+	public boolean logoExist() {
+		return logo.isDisplayed();
 	}
 	
 }

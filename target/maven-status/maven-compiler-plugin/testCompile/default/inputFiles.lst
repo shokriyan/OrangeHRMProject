@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+/Users/mohammadshokriyan/eclipse-workspace/teamworkproject/src/test/java/utils/ConfigReader.java
+/Users/mohammadshokriyan/eclipse-workspace/teamworkproject/src/test/java/test/LoginTests.java
+/Users/mohammadshokriyan/eclipse-workspace/teamworkproject/src/test/java/utils/ExcelFileReader.java
+/Users/mohammadshokriyan/eclipse-workspace/teamworkproject/src/test/java/pages/logInPage.java
+/Users/mohammadshokriyan/eclipse-workspace/teamworkproject/src/test/java/utils/BaseClass.java
+/Users/mohammadshokriyan/eclipse-workspace/teamworkproject/src/test/java/utils/ConstanceClass.java
+/Users/mohammadshokriyan/eclipse-workspace/teamworkproject/src/test/java/utils/CommonMethods.java
+=======
 /Users/tannaznazar/eclipse-workspace/teamworkproject/src/test/java/utils/ConstanceClass.java
 /Users/tannaznazar/eclipse-workspace/teamworkproject/src/test/java/utils/CommonMethods.java
 /Users/tannaznazar/eclipse-workspace/teamworkproject/src/test/java/utils/ExcelFileReader.java
@@ -5,3 +14,4 @@
 /Users/tannaznazar/eclipse-workspace/teamworkproject/src/test/java/utils/ConfigReader.java
 /Users/tannaznazar/eclipse-workspace/teamworkproject/src/test/java/utils/BaseClass.java
 /Users/tannaznazar/eclipse-workspace/teamworkproject/src/test/java/pages/logInPage.java
+>>>>>>> d2f631fe63cf8ee18744d307f86007787a6d207f

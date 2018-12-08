@@ -51,5 +51,9 @@ public class ConfigReader {
 	public String getFirePath() {
 		return prop.getProperty("firefoxpath");
 	}
+	
+	public String getExcelPath() {
+		return prop.getProperty("excelFilePath");
+	}
 
 }

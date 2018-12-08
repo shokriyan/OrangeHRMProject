@@ -8,10 +8,14 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelFileReader {
 	
+	ConfigReader config; 
+	
 	XSSFWorkbook book;
 	XSSFSheet sheet;
-	String filePath = ConstanceClass.excelFilePath;
+	String filePath ;
 	public void openExcelSheet(String filePath, String sheetName) {
+		config = new ConfigReader(); 
+		filePath = System.getProperty("user.dir") + config.getExcelPath();
 		 
 		try {
 			FileInputStream fis = new FileInputStream(filePath);

@@ -1,7 +1,7 @@
 utils/ConstanceClass.class
 utils/ConfigReader.class
-utils/CommonMethods.class
 pages/logInPage.class
+utils/CommonMethods.class
 pages/DashboadPage.class
 test/LoginTests.class
 utils/BaseClass.class

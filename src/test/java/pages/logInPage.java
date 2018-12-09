@@ -4,7 +4,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+
+
 import utils.BaseClass;
+import utils.ConfigReader;
 
 public class logInPage extends BaseClass{
 
@@ -27,6 +30,16 @@ public class logInPage extends BaseClass{
 	
 	public boolean logoExist() {
 		return logo.isDisplayed();
+	}
+	
+	public void doLogin() {
+
+		ConfigReader config = new ConfigReader();
+
+		userName.sendKeys(config.getUserName());
+		password.sendKeys(config.getPassword());
+		logInButton.click();
+
 	}
 	
 }

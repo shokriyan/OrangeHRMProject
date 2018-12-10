@@ -12,18 +12,20 @@ import utils.CommonMethods;
 import utils.ConfigReader;
 
 public class DashboardTests {
-	
-	BaseClass base ; 
+
+	BaseClass base;
+
 	@BeforeMethod
 	public void initialTest() {
-		base = new BaseClass(); 
+		base = new BaseClass();
 		BaseClass.initialSetup("chrome");
-		
+
 	}
+
 	@Test
 	public void VerifyLoggedUser() {
-		ConfigReader config = new ConfigReader(); 
-		
+		ConfigReader config = new ConfigReader();
+
 		String getUser = config.getUserName();
 		String getpass = config.getPassword();
 		logInPage login = new logInPage();
@@ -31,11 +33,13 @@ public class DashboardTests {
 		CommonMethods.sendFieldValue(login.password, getpass);
 		CommonMethods.clickOnButtons(login.logInButton);
 		DashboadPage dash = new DashboadPage();
+
 		String actualUser = dash.getLoggedUser();
-		
+
 		Assert.assertEquals(actualUser, getUser);
+		
 	}
-	
+
 	@AfterMethod
 	public void closingTest() {
 		base.teardown();

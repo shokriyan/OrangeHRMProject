@@ -2,91 +2,69 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2018-12-09T15:51:57Z" name="OrangeHRM Application teamwork" finished-at="2018-12-09T15:52:09Z" duration-ms="12393">
+  <suite started-at="2018-12-10T03:36:29Z" name="OrangeHRM Application teamwork" finished-at="2018-12-10T03:36:40Z" duration-ms="10982">
     <groups>
     </groups>
-    <test started-at="2018-12-09T15:51:57Z" name="Login Page Test" finished-at="2018-12-09T15:52:06Z" duration-ms="8839">
+    <test started-at="2018-12-10T03:36:29Z" name="Login Page Test" finished-at="2018-12-10T03:36:36Z" duration-ms="6822">
       <class name="test.LoginTests">
-        <test-method is-config="true" signature="start()[pri:0, instance:test.LoginTests@757acd7b]" started-at="2018-12-09T15:51:57Z" name="start" finished-at="2018-12-09T15:52:02Z" duration-ms="5023" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:test.LoginTests@3943a2be]" started-at="2018-12-10T03:36:29Z" name="start" finished-at="2018-12-10T03:36:32Z" duration-ms="3117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="verifyLogIn()[pri:0, instance:test.LoginTests@757acd7b]" started-at="2018-12-09T15:52:02Z" name="verifyLogIn" finished-at="2018-12-09T15:52:04Z" duration-ms="1700" status="PASS">
+        <test-method signature="verifyLogIn()[pri:0, instance:test.LoginTests@3943a2be]" started-at="2018-12-10T03:36:32Z" name="verifyLogIn" finished-at="2018-12-10T03:36:34Z" duration-ms="1550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogIn -->
-        <test-method is-config="true" signature="finish()[pri:0, instance:test.LoginTests@757acd7b]" started-at="2018-12-09T15:52:04Z" name="finish" finished-at="2018-12-09T15:52:04Z" duration-ms="110" status="PASS">
+        <test-method is-config="true" signature="finish()[pri:0, instance:test.LoginTests@3943a2be]" started-at="2018-12-10T03:36:34Z" name="finish" finished-at="2018-12-10T03:36:34Z" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finish -->
-        <test-method is-config="true" signature="start()[pri:0, instance:test.LoginTests@757acd7b]" started-at="2018-12-09T15:52:04Z" name="start" finished-at="2018-12-09T15:52:06Z" duration-ms="1867" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:test.LoginTests@3943a2be]" started-at="2018-12-10T03:36:34Z" name="start" finished-at="2018-12-10T03:36:36Z" duration-ms="1930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="verifyLogoPresent()[pri:0, instance:test.LoginTests@757acd7b]" started-at="2018-12-09T15:52:06Z" name="verifyLogoPresent" finished-at="2018-12-09T15:52:06Z" duration-ms="48" status="PASS">
+        <test-method signature="verifyLogoPresent()[pri:0, instance:test.LoginTests@3943a2be]" started-at="2018-12-10T03:36:36Z" name="verifyLogoPresent" finished-at="2018-12-10T03:36:36Z" duration-ms="44" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogoPresent -->
-        <test-method is-config="true" signature="finish()[pri:0, instance:test.LoginTests@757acd7b]" started-at="2018-12-09T15:52:06Z" name="finish" finished-at="2018-12-09T15:52:06Z" duration-ms="76" status="PASS">
-=======
-  <suite started-at="2018-12-09T21:26:38Z" name="OrangeHRM Application teamwork" finished-at="2018-12-09T21:27:03Z" duration-ms="24420">
-    <groups>
-    </groups>
-    <test started-at="2018-12-09T21:26:38Z" name="Login Page Test" finished-at="2018-12-09T21:26:54Z" duration-ms="15733">
-      <class name="test.LoginTests">
-        <test-method is-config="true" signature="start()[pri:0, instance:test.LoginTests@793be5ca]" started-at="2018-12-09T21:26:38Z" name="start" finished-at="2018-12-09T21:26:44Z" duration-ms="6064" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="verifyLogIn()[pri:0, instance:test.LoginTests@793be5ca]" started-at="2018-12-09T21:26:44Z" name="verifyLogIn" finished-at="2018-12-09T21:26:46Z" duration-ms="1187" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogIn -->
-        <test-method is-config="true" signature="finish()[pri:0, instance:test.LoginTests@793be5ca]" started-at="2018-12-09T21:26:46Z" name="finish" finished-at="2018-12-09T21:26:48Z" duration-ms="2111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finish -->
-        <test-method is-config="true" signature="start()[pri:0, instance:test.LoginTests@793be5ca]" started-at="2018-12-09T21:26:48Z" name="start" finished-at="2018-12-09T21:26:54Z" duration-ms="6137" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="verifyLogoPresent()[pri:0, instance:test.LoginTests@793be5ca]" started-at="2018-12-09T21:26:54Z" name="verifyLogoPresent" finished-at="2018-12-09T21:26:54Z" duration-ms="72" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogoPresent -->
-        <test-method is-config="true" signature="finish()[pri:0, instance:test.LoginTests@793be5ca]" started-at="2018-12-09T21:26:54Z" name="finish" finished-at="2018-12-09T21:26:54Z" duration-ms="143" status="PASS">
->>>>>>> f8c1d900756005154bb2fbcb0786f11184b2fa95
+        <test-method is-config="true" signature="finish()[pri:0, instance:test.LoginTests@3943a2be]" started-at="2018-12-10T03:36:36Z" name="finish" finished-at="2018-12-10T03:36:36Z" duration-ms="80" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finish -->
       </class> <!-- test.LoginTests -->
     </test> <!-- Login Page Test -->
-<<<<<<< HEAD
-    <test started-at="2018-12-09T15:52:06Z" name="Dashboard Page test" finished-at="2018-12-09T15:52:09Z" duration-ms="3381">
+    <test started-at="2018-12-10T03:36:36Z" name="Dashboard Page test" finished-at="2018-12-10T03:36:40Z" duration-ms="3901">
       <class name="test.DashboardTests">
-        <test-method is-config="true" signature="initialTest()[pri:0, instance:test.DashboardTests@4ef37659]" started-at="2018-12-09T15:52:06Z" name="initialTest" finished-at="2018-12-09T15:52:08Z" duration-ms="1787" status="PASS">
+        <test-method is-config="true" signature="initialTest(java.lang.String)[pri:0, instance:test.DashboardTests@306cf3ea]" started-at="2018-12-10T03:36:36Z" name="initialTest" finished-at="2018-12-10T03:36:38Z" duration-ms="1878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialTest -->
-        <test-method signature="VerifyLoggedUser()[pri:0, instance:test.DashboardTests@4ef37659]" started-at="2018-12-09T15:52:08Z" name="VerifyLoggedUser" finished-at="2018-12-09T15:52:09Z" duration-ms="1516" status="PASS">
+        <test-method signature="VerifyLoggedUser()[pri:0, instance:test.DashboardTests@306cf3ea]" started-at="2018-12-10T03:36:38Z" name="VerifyLoggedUser" finished-at="2018-12-10T03:36:40Z" duration-ms="1857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLoggedUser -->
-        <test-method is-config="true" signature="closingTest()[pri:0, instance:test.DashboardTests@4ef37659]" started-at="2018-12-09T15:52:09Z" name="closingTest" finished-at="2018-12-09T15:52:09Z" duration-ms="76" status="PASS">
-=======
-    <test started-at="2018-12-09T21:26:54Z" name="Dashboard Page test" finished-at="2018-12-09T21:27:03Z" duration-ms="8614">
-      <class name="test.DashboardTests">
-        <test-method is-config="true" signature="initialTest()[pri:0, instance:test.DashboardTests@fa49800]" started-at="2018-12-09T21:26:54Z" name="initialTest" finished-at="2018-12-09T21:27:01Z" duration-ms="6907" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialTest -->
-        <test-method signature="VerifyLoggedUser()[pri:0, instance:test.DashboardTests@fa49800]" started-at="2018-12-09T21:27:01Z" name="VerifyLoggedUser" finished-at="2018-12-09T21:27:03Z" duration-ms="1456" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyLoggedUser -->
-        <test-method is-config="true" signature="closingTest()[pri:0, instance:test.DashboardTests@fa49800]" started-at="2018-12-09T21:27:03Z" name="closingTest" finished-at="2018-12-09T21:27:03Z" duration-ms="249" status="PASS">
->>>>>>> f8c1d900756005154bb2fbcb0786f11184b2fa95
+        <test-method is-config="true" signature="closingTest()[pri:0, instance:test.DashboardTests@306cf3ea]" started-at="2018-12-10T03:36:40Z" name="closingTest" finished-at="2018-12-10T03:36:40Z" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingTest -->

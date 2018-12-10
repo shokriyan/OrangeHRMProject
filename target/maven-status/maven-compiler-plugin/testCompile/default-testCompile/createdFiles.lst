@@ -6,4 +6,6 @@ pages/DashboadPage.class
 test/LoginTests.class
 utils/BaseClass.class
 utils/ExcelFileReader.class
+test/AddJobTitleTest.class
+pages/AssignLeavePage.class
 test/DashboardTests.class

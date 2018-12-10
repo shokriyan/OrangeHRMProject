@@ -12,6 +12,10 @@ public class DashboadPage extends BaseClass{
 	@FindBy (how = How.ID, using = "welcome")
 	public WebElement loggeduser; 
 	
+	@FindBy (how=How.XPATH, using = "//span[contains(text(),'Assign Leave')]")
+	public WebElement AsgnLv; 
+
+	
 	public DashboadPage() {
 		PageFactory.initElements(driver, this);
 	}
@@ -19,6 +23,11 @@ public class DashboadPage extends BaseClass{
 	public String getLoggedUser() {
 		String user = loggeduser.getText();
 		return user.substring(8);
+	}
+	
+	public void AssignLeaveM() {
+		
+		
 	}
 
 }

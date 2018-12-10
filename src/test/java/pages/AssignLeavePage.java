@@ -1,6 +1,8 @@
 package pages;
 
-public class AssignLeavePage {
+import utils.BaseClass;
+
+public class AssignLeavePage extends BaseClass {
 	
 	
 	

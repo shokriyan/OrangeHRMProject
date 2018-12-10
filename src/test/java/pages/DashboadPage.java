@@ -13,7 +13,7 @@ public class DashboadPage extends BaseClass{
 	public WebElement loggeduser; 
 	
 	@FindBy (how=How.XPATH, using = "//span[contains(text(),'Assign Leave')]")
-	public WebElement AsgnLv; 
+	public WebElement asgnLv; 
 
 	
 	public DashboadPage() {
@@ -26,7 +26,8 @@ public class DashboadPage extends BaseClass{
 	}
 	
 	public void AssignLeaveM() {
-		
+		clickableWait(asgnLv);
+		asgnLv.click();
 		
 	}
 

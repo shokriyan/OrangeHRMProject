@@ -3,6 +3,7 @@ package test;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import pages.DashboadPage;
@@ -16,9 +17,10 @@ public class DashboardTests {
 	BaseClass base;
 
 	@BeforeMethod
-	public void initialTest() {
+	@Parameters({"browser"})
+	public void initialTest(String browser) {
 		base = new BaseClass();
-		BaseClass.initialSetup("chrome");
+		BaseClass.initialSetup(browser);
 
 	}
 

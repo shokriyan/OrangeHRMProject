@@ -25,10 +25,5 @@ public class DashboadPage extends BaseClass{
 		return user.substring(8);
 	}
 	
-	public void AssignLeaveM() {
-		clickableWait(asgnLv);
-		asgnLv.click();
-		
-	}
 
 }
